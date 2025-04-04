@@ -1,0 +1,27 @@
+pre
+        {
+            text-align: right;
+            font-family: 'Times New Roman', Times, serif;
+            color: #2A324B;
+        }
+ p
+        {
+            font-size: 30px;
+            color: #2A324B;
+        }
+h2
+        {
+            font-size: 30px;
+        }
+image
+        {
+            align-items: left;
+        }
+body
+        {
+            background-color: #C7CCDB;
+        }
+a
+        {
+            text-decoration: none;
+        }
