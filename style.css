@@ -1,9 +1,39 @@
-pre
-        {
-            text-align: right;
-            font-family: 'Times New Roman', Times, serif;
-            color: #2A324B;
-        }
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#name
+{
+    color: #545643;
+}
+.navbar
+{
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.2);
+    align-items: center;
+    margin-top: 15px;
+}
+a
+{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.exp
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
  p
         {
             font-size: 30px;
