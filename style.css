@@ -21,14 +21,14 @@ a
 {
     text-decoration: none;
     font-size: 30px;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 a:hover
 {
     background-color: rgba(0, 0, 0, 0.25);
     font-size: 35px;
-    color: white;
+    color: black;
 }
 #dashboard
 {
@@ -40,13 +40,22 @@ a:hover
     height: 100%;
     object-fit: cover;
 }
+#bio
+{
+    margin: 400px 100px 0px 100px;
+    color: white;
+    font-size: 30px;
+    background-color: #67597a;
+    border-radius: 20px;
+
+}
 .exp
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     height: 210px;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
     margin-top: 50px;
     margin-bottom: 50px;    
 }
@@ -55,10 +64,15 @@ a:hover
     align-self: center;
     border: 1px solid white;
     height: 200px;
-    width: 200px;
+    width: 300px;
     background-color: #85baa1;
     border-radius: 10px 0px;
     text-align: center;
+}
+.comp:hover
+{
+    height: 230px;
+    width: 230px;
 }
 .exp h3,h4
 {
