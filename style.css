@@ -47,11 +47,12 @@ a:hover
 }
 #bio
 {
-    margin: 400px 100px 0px 100px;
+    margin: 400px 100px 25px 100px;
     color: white;
     font-size: 30px;
     background-color: #67597a;
     border-radius: 20px;
+    padding: 8px;
     /* background-image: url(images/dev1.jpg); */
 }
 .exp
@@ -65,7 +66,13 @@ a:hover
     margin-bottom: 50px;   
     background-color: #67597a; 
     height: 500px;
+    /* background-image: url(images/exp.jpg);
+    background-size: cover; */
 
+}
+.label
+{
+    letter-spacing: 35px;
 }
 .comp
 {
@@ -91,6 +98,23 @@ a:hover
 .exp h4
 {
     color: #67597a;
+}
+.education
+{
+    height: 500px;
+    background-color: burlywood;
+    margin-bottom: 50px;  
+}
+.projects
+{
+    height: 500px;
+   background-color: #545643;
+   margin-bottom: 50px;
+}
+footer
+{
+    height: 500px;
+    background-color: #85baa1;
 }
 /* p
         {
