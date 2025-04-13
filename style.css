@@ -16,6 +16,7 @@
     background-color: rgba(0, 0, 0, 0.2);
     align-items: center;
     margin-top: 15px;
+    /* position: fixed; */
 }
 .top
 {
@@ -104,6 +105,21 @@ a:hover
     height: 500px;
     background-color: burlywood;
     margin-bottom: 50px;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.edu1, .edu2, .edu3
+{
+    height: 200px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+.education p
+{
+    font-size: 25px;
+    margin-bottom: 12px;
 }
 .projects
 {
