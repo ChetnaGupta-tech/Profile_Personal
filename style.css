@@ -317,17 +317,11 @@ footer p
 /* media queries */
 @media screen and (max-width:992px)
 {
-    *
-    {
-        /* overflow: hidden; */
-    }
-    .navbar
-    {
-        width: 100vw;
-    }
+    
     .navbar-items li
     {
         font-size: 20px;
+        margin-left: 10px;
     }
     .introduction p
     {
@@ -373,5 +367,6 @@ footer p
         width: 100%;
         margin: 5px;
         margin-bottom: 100px;
+        margin-left: 100px;
     }
 }
