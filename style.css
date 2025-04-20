@@ -65,9 +65,9 @@ body
 .image img
 {
     /* background-image: url(images/me.jpeg); */
-    background-size: cover;
-    height: 300px;
-    width: 300px;
+    background-size: contain;
+    height: 280px;
+    width: 280px;
     border-radius: 200px;
     border: 2px solid white;
     padding: 7px;
