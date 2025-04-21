@@ -325,9 +325,9 @@ footer p
     
     .navbar-items li
     {
-        font-size: 20px;
-        margin-left: 18px;
-        margin-right: 15px;
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .introduction p
     {
@@ -335,7 +335,7 @@ footer p
     }
     .image img
     {
-        margin-left: 80px;
+        margin-left: 50px;
     }
     .image-about
     {
@@ -348,13 +348,14 @@ footer p
         margin-right: 2px;
         margin-left: 18px;
         width: 500px;
+        font-size: 18px;
     }
     .aboutme
     {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        font-size: 15px;
+        
         
     }
     .projects
