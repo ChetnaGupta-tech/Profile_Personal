@@ -26,7 +26,7 @@ body
     list-style-type: none;
     display: inline-block;
     margin-right: 30px;
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 20px;
 }
 .navbar-items a
@@ -317,11 +317,17 @@ footer p
 /* media queries */
 @media screen and (max-width:992px)
 {
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
     
     .navbar-items li
     {
         font-size: 20px;
-        margin-left: 10px;
+        margin-left: 18px;
+        margin-right: 15px;
     }
     .introduction p
     {
@@ -329,7 +335,7 @@ footer p
     }
     .image img
     {
-        margin-left: 100px;
+        margin-left: 80px;
     }
     .image-about
     {
@@ -337,8 +343,11 @@ footer p
     }
     .info
     {
-        margin-top: -230px;
+        margin-top: -300px;
         text-align: start;
+        margin-right: 20px;
+        margin-left: 1px;
+        width: 500px;
     }
     .aboutme
     {
@@ -346,6 +355,7 @@ footer p
         flex-direction: column;
         justify-content: center;
         font-size: 15px;
+        
     }
     .projects
     {
@@ -358,6 +368,7 @@ footer p
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-left: 20px;
     }
     .services
     {
@@ -367,6 +378,10 @@ footer p
         width: 100%;
         /* margin: 5px; */
         margin-bottom: 100px;
-        margin-left: 100px;
+        /* margin-left: 200px; */
+    }
+    .service1, .service2, .service3
+    {
+        margin-left: 20px;
     }
 }
